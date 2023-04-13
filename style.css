@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-principal{
+    background: #222;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.tarjeta{
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.error{
+    color: red;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0 0.3rem;
+}
+
+button{
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+
+    color: white;
+    background: darkblue;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contenedor-botones{
+    display: flex;
+}
